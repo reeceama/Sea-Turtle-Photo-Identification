@@ -1,0 +1,26 @@
+---
+title: "Individual Reflection Statement"
+subtitle: "MTH6101 Introduction to Machine Learning: Group Project"
+author: "Anjanpreet"
+output: pdf_document
+fontsize: 11pt
+geometry: margin=2cm
+---
+
+<!-- One page maximum. Submitted separately by each student. -->
+
+# Your contribution
+
+<!-- Your contribution and role in the group. What was particularly effective, and what would you do differently? -->
+
+# Learning
+
+<!-- What you learned: technical knowledge, machine learning methods, data analysis skills, or working as a group. -->
+
+# Challenges
+
+<!-- The main challenges for you and/or the group, and how you approached and overcame them. -->
+
+# Feedback
+
+<!-- How you responded to and used feedback during the project, with specific examples. -->

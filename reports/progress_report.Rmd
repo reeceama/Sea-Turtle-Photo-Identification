@@ -1,0 +1,18 @@
+---
+title: "Progress Report"
+subtitle: "MTH6101 Introduction to Machine Learning: Group Project"
+author: "Ahsan, Anjanpreet, Matas, Ozair, Reece"
+output: pdf_document
+fontsize: 11pt
+geometry: margin=2cm
+---
+
+<!-- Week 10, one page. Not marked, but taking part in the progress and feedback process counts towards the assessment. -->
+
+# Progress so far
+
+# Preliminary results
+
+# Challenges
+
+# Plans for completing the project

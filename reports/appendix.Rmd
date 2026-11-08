@@ -1,0 +1,26 @@
+---
+title: "Appendix"
+subtitle: "MTH6101 Introduction to Machine Learning: Group Project"
+author: "Ahsan, Anjanpreet, Matas, Ozair, Reece"
+output: pdf_document
+fontsize: 11pt
+geometry: margin=2cm
+---
+
+<!-- One page each. Build these from the running notes in notes/. -->
+
+# Individual Contributions Statement
+
+<!-- From notes/individual-contributions.md. Specific main tasks for each member, reviewed and agreed by everyone. -->
+
+\newpage
+
+# AI Use Statement
+
+<!-- From notes/ai-use-log.md. Tools used and what for; say where AI was used substantially. -->
+
+\newpage
+
+# Group Meeting Record
+
+<!-- From notes/group-meeting-record.md. -->
