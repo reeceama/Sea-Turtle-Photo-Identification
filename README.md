@@ -40,6 +40,38 @@ Building and comparing classification models for sea turtle photo-identification
 
 If RStudio reports a **merge conflict**, the file will show both versions between `<<<<<<<` and `>>>>>>>` markers. Don't delete anyone's code; ask in the group chat and fix it together.
 
+## Pull requests for shared files
+
+Some files are used by everyone else's code or bring together everyone's results, so changes to them go through a pull request and someone checks them before they reach `main`:
+
+- `code/setup.R`: loaded by every script
+- `code/task1/pairs.R`: the pairs every task uses
+- `code/task2/pair_auc.R`: the AUC function tasks 2 and 5 share
+- `code/task5/pca_pairs.R`: the PCA-reduced pairs the task 5 analysis uses
+- `code/analysis.R` and `code/results_table.R`: the combined final code
+- anything in `reports/` that more than one person writes in
+
+Your own task files don't need one; commit and push them as normal.
+
+1. **Check it runs.** Click **Session → Restart R**, then **Source** the file you changed, and any task file that uses it.
+2. **Open a pull request.**
+   - **In RStudio:** click **Pull**, then the purple **New Branch** button in the Git tab, and name it e.g. `name-pairs`. Commit and push as normal. On GitHub, click **Compare & pull request** on the yellow banner.
+   - **On the GitHub website:** after editing or uploading the file, click **Commit changes**, choose **Create a new branch for this commit and start a pull request**, then click **Propose changes**.
+3. **Say what you changed.** In the description, write:
+   - what you changed and why;
+   - which tasks it affects (e.g. "changes the pairs, so affects tasks 2–5");
+   - how you checked it (e.g. "still 2,641 pairs per side and 40 matches").
+
+   Then click **Create pull request**.
+4. **Someone else reviews it.** They look at the **Files changed** tab and either approve it or leave a comment. To fix something, commit to the same branch and the pull request updates.
+
+   **If you're reviewing, don't edit someone else's code.** Instead:
+   - leave a comment on the line in the **Files changed** tab saying what needs changing;
+   - click **Request changes** so it's clear it isn't ready to merge;
+   - for small fixes, click the **±** icon while commenting and type the corrected line; the author can then click **Commit suggestion** to accept it;
+   - once the author has fixed it, check again and approve.
+5. **Merge it.** Once approved, click **Merge pull request** and delete the branch. In RStudio, switch back to `main` using the branch menu in the Git tab, then click **Pull**.
+
 ## Rules
 
 - Never delete code or outputs, even ones we don't end up using; rough work stays in your own file.
